@@ -12,7 +12,7 @@ $X_{ij}$ denotes the pixel value of $i$-th row and $j$-th column in a $m\times n
 
 
 Let $r_{i,j}$ be the correlation coefficient between $i$-th and $j$-th row. Let $R_{i,j}$ be the correlation coefficient between  $i$-th and $j$-th columns. 
-Image frequency is obtained by applying Fourier analysis to the array of correlation coefficients calculated from adjacent columns or rows. First, we calculate the correlation coefficients between adjacent rows or columns, and obtain array of correlation coefficients. 
+Image frequency is obtained by applying Fourier analysis to the array of correlation coefficients calculated from adjacent columns or rows. First, we calculate the correlation coefficients between adjacent rows or columns, and obtain array of correlation coefficients. Figure below shows the procedures to calculating the image frequencies.
 
 <img src="https://github.com/TakumaUsuzaki/ImageFrequency/blob/main/bitmap.png">
 
@@ -29,6 +29,7 @@ $$[R_{1,2}, R_{2,3}, \cdots, R_{n-2,n-1}, R_{n-1,n}] \xrightarrow{\textrm{Fourie
 
 ## Example
 
+As an example, we use a lung nodule image on CT. 
 
 
 
