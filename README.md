@@ -55,3 +55,11 @@ Image frequency for column: 0.20392156862745098
 Image frequency for row: 0.2549019607843137
 ```
 
+## Citation
+When you use code in this repository, please cite papers below.
+
+[A new radiomics feature: image frequency analysis Takuma Usuzaki, Kengo Takahash, Kazuma Umemiya
+arXiv 2021.11.10; doi: https://doi.org/10.48550/arXiv.2111.05855](https://arxiv.org/abs/2111.05855)
+
+## Acknowledgement
+The authors acknowledge the National Cancer Institute and the Foundation for the National Institutes of Health, and their critical role in the creation of the free publicly available LIDC/IDRI database used in this study. Data used in this research were obtained from The Cancer Imaging Archive (TCIA) sponsored by the Cancer Imaging Program, DCTD/NCI/NIH, https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI.
