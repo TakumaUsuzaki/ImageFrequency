@@ -12,8 +12,19 @@ $X_{ij}$ denotes the pixel value of $i$-th row and $j$-th column in a $m\times n
 
 
 Let $r_{i,j}$ be the correlation coefficient between $i$-th and $j$-th row. Let $R_{i,j}$ be the correlation coefficient between  $i$-th and $j$-th columns. 
+Image frequency is obtained by applying Fourier analysis to the array of correlation coefficients calculated from adjacent columns or rows. First, we calculate the correlation coefficients between adjacent rows or columns, and obtain array of correlation coefficients. 
 
-$$r_{i,j}=\frac{\sum_{k=1}^n(X_{ik}-\overline{X}_{ik})(X_{jk}-\overline{X}_{jk})}{\sqrt{\sum_{k=1}^n(X_{ik}-\overline{X}_{ik})^2}\sqrt{\sum_{k=1}^n(X_{jk}-\overline{X}_{jk})^2}}$$
+
+$$[r_{1,2}, r_{2,3}, \cdots, r_{m-2,m-1}, r_{m-1,m}]$$
+
+$$[R_{1,2}, R_{2,3}, \cdots, R_{n-2,n-1}, R_{n-1,n}].$$
+
+By applying Fourier analysis to these arrays, we obtain frequency of the arrays,
+
+$$[r_{1,2}, r_{2,3}, \cdots, r_{n-2,n-1}, r_{m-1,m}]  \xrightarrow{\textrm{Fourier analysis}} f$$
+
+$$[R_{1,2}, R_{2,3}, \cdots, R_{n-2,n-1}, R_{n-1,n}] \xrightarrow{\textrm{Fourier analysis}} F.$$
+
 
 
 
