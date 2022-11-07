@@ -27,11 +27,11 @@ $$[r_{1,2}, r_{2,3}, \cdots, r_{n-2,n-1}, r_{m-1,m}]  \xrightarrow{\textrm{Fouri
 
 $$[R_{1,2}, R_{2,3}, \cdots, R_{n-2,n-1}, R_{n-1,n}] \xrightarrow{\textrm{Fourier analysis}} F.$$
 
-## Example
+## Example & Test
 
 As an example, we use a lung nodule image on CT. 
 
-
+<img src="https://github.com/TakumaUsuzaki/ImageFrequency/blob/main/mal5_LIDC-IDRI-0072_6.png">
 
 
 
