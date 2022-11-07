@@ -34,6 +34,24 @@ As an example, we use a lung nodule image on CT.
 <img src="https://github.com/TakumaUsuzaki/ImageFrequency/blob/main/mal5_LIDC-IDRI-0072_6.png">
 
 
+When you execute '__main__.py',
+```
+python __main__.py
+```
+you are asked the path of the input image.
 
+```
+Please input the image file path: 
+```
 
+The relative path of the test image is '../images/test.png', so you input this as following.
+
+```
+Please input the image file path: ../images/test.png
+```
+Then you obtain the image frequency for columns and rows.
+```
+Image frequency for column: 0.20392156862745098
+Image frequency for row: 0.2549019607843137
+```
 
